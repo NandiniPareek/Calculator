@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+}
+
+input {
+    height: 2rem;
+    width: 220px;
+    padding: 0 0.5rem;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 2px solid #00acee;
+}
+
+.title{
+    text-align: center;
+    color: rgb(96, 238, 108);
+}
+
+.image1 {
+    background-color: rgba(134, 238, 203, 0.582);
+    height: 100vh;
+}
+
+.image2 {
+    background-color: rgba(222, 184, 135, 0.37);
+    height: 100vh;
+}
+
+.image {
+    background-image: linear-gradient(to bottom right, rgba(30, 255, 0, 0.514), rgba(0, 255, 157, 0.726));
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.calculate2 {
+    cursor: pointer;
+    width: 50%;
+    font-size: 30px;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: none;
+    background: rgba(243, 121, 39, 0.89);
+    color: white;   
+}
+
+.calculate2:hover {
+    background-color: rgb(231, 212, 42);
+}
+
+.calculate {
+    cursor: pointer;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    border: none;
+    background: #04abecb0;
+    color: white;
+}
+
+.calculate:active {
+    box-shadow: rgb(15, 165, 235);
+    box-shadow: 0 5px rgba(13, 41, 49, 0.445);
+    transform: translateY(4px);
+}
+
+.calculateci {
+    cursor: pointer;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    border: none;
+    background: #e9a20ab0;
+    color: white;
+}
+
+.calculateci:active {
+    box-shadow: rgb(235, 140, 15);
+    box-shadow: 0 5px rgba(13, 41, 49, 0.445);
+    transform: translateY(4px);
+}
+
+.simple_interest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    width: 400px;
+    marker-end: none;
+    margin: 50px auto;
+    padding: 4% 5%;
+    height: 350px;
+    border: 5px solid rgba(41, 163, 233, 0.938);
+    box-shadow: 5px 5px 10px rgba(12, 160, 218, 0.726);
+    background: #e27feb8c;
+    border-radius: 20px;
+}
+
+.compound_interest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    width: 400px;
+    marker-end: none;
+    margin: 50px auto;
+    padding: 4% 5%;
+    height: 350px;
+    border: 5px solid rgba(228, 171, 16, 0.938);
+    box-shadow: 5px 5px 10px rgba(218, 146, 12, 0.726);
+    background: #e708083a;
+    border-radius: 20px;
+}
+
+#output {
+    margin: 1rem;
+
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMPLE INTEREST</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+<div class = "image1">
+    <h1 class = "title">SIMPLE INTEREST CALCULATOR</h1>
+    <p style="color: crimson; font-size: larger; margin: 1rem;">This is a calculator using formula I = (P * R * T)/100</p>
+    <div class = "container">
+        <div class = "simple_interest">
+            <p style="color: crimson;">Calculate S.I. here!!</p>
+            <label for ="Principle">
+                <input type ="text" id = "Principle" placeholder = "Enter Amount" />
+            </label>
+            <label for ="Rate">
+                <input type ="number" id = "Rate" placeholder = "Rate" />
+            </label>
+            <label for ="Time">
+                <input type ="number" id = "Time" placeholder = "Time in years" />
+            </label>
+            <button class = "calculate">CALCULATE</button>
+        <div id = "output"></div>
+    </div>
+</div>
+</body>
+<script src = "index.js"></script>
+</html>

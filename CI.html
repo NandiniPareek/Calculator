@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMPOUND INTEREST</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+<div class = "image2">
+    <h1 class = "title">COMPOUND INTEREST CALCULATOR</h1>   
+    <p style="color: blueviolet; font-size: larger; margin: 1rem;">This is a calculator using formula I = P(1 + R/n)^nT</p>
+    <div class = "compound_interest"> 
+        <p style="color: blueviolet;">Calculate C.I. here!!</p>
+            <label for ="Principle">
+                <input type ="text" id = "principle_ci" placeholder = "Enter Amount" />
+            </label>
+            <label for ="Rate">
+                <input type ="number" id = "rate_ci" placeholder = "Rate" />
+            </label>
+            <label for ="Time">
+                <input type ="number" id = "time_ci" placeholder = "Time in years" />
+            </label>
+            <label for ="N"> 
+                <input type ="number" id = "N" placeholder = "Number of times interest applied" />
+            </label>
+            <button class = "calculateci">CALCULATE</button>
+            <div id = "output1"></div>
+    </div> 
+</div>
+</body>
+<script src = "index.js"></script>
+</html>
