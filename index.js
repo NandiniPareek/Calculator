@@ -25,8 +25,8 @@ var calculateci = document.querySelector(".calculateci");
 
 if(calculateci) {
 calculateci.addEventListener('click',function calculateci() {
-    var X = Math.pow(1 + (rate_ci.value/N.value*100) , (N.value*time_ci.value));
-    var CI = (principle_ci.value*X).toPrecision(2);
+    var X = Math.pow(1 + rate_ci.value/(N.value*100) , (N.value*time_ci.value));
+    var CI = (principle_ci.value*X).toFixed(2);
     output1.innerText = "Your Coumpound Interest is : " + CI;
 }
 );
